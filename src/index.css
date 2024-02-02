@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .link-color {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+  body {
+    color: white;
+  }
+  .navLink::after {
+    @apply content-[''] bg-yellow-300 h-[3px] w-[0%] left-0 -bottom-[5px] rounded-xl duration-300 absolute;
+  }
+  .navLink:hover::after {
+    @apply w-[100%];
+  }
+  .main {
+    color: rgb(232, 210, 154);
+  }
+  .bg {
+    background-color: rgb(232, 210, 154);
+  }
+}
