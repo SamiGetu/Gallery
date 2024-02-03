@@ -32,7 +32,6 @@ const router = createBrowserRouter([
     path: "*",
     element: (
       <React.Fragment>
-        <ScrollToTop />
         <NotFound />
       </React.Fragment>
     ),

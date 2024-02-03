@@ -30,17 +30,17 @@ function Footer() {
       <footer className="bg-white   ">
         <div className=" p-4 py-6 lg:py-8">
           <div className=" space-y-[3rem]">
-            <div className="flex text-2xl text-neutral-900 hover:text-black gap-5 mt-4 sm:justify-center sm:mt-0 space-x-3">
-              <div className="border border-neutral-800 rounded-full">
+            <div className="flex text-2xl text-neutral-900 hover:text-black gap-5 mt-4 justify-center items-center sm:mt-0 space-x-3">
+              <div className="border border-neutral-800 hover:border-yellow-300  rounded-full">
                 <TiSocialFacebook size={"40px"} />
               </div>
-              <div className="border border-neutral-800 rounded-full">
+              <div className="border border-neutral-800 hover:border-yellow-300  rounded-full">
                 <TiSocialTwitter size={"40px"} />
               </div>
-              <div className="border border-neutral-800 rounded-full">
+              <div className="border border-neutral-800 hover:border-yellow-300  rounded-full">
                 <TiSocialLinkedin size={"40px"} />
               </div>
-              <div className="border border-neutral-800 rounded-full">
+              <div className="border border-neutral-800 hover:border-yellow-300  rounded-full">
                 <TiSocialYoutube size={"40px"} />
               </div>
             </div>

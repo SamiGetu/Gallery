@@ -2,6 +2,7 @@ import Navigation from "./Navigation";
 import Home from "./Home";
 import About from "./About";
 import Gallery from "./Gallery";
+import Contact from "./Contact";
 import Footer from "./Footer";
 
 function Layout() {
@@ -11,6 +12,7 @@ function Layout() {
       <Home />
       <About />
       <Gallery />
+      <Contact />
       <Footer />
     </>
   );

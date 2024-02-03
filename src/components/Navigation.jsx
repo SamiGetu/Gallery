@@ -2,15 +2,15 @@
 import { useState } from "react";
 import { CgMenuRight } from "react-icons/cg";
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 
 function Navigation() {
   const Links = [
     { Name: "Home", Path: "/", key: 1 },
-    { Name: "About", Path: "/about", key: 2 },
-    { Name: "Gallery", Path: "/gallery", key: 3 },
+    { Name: "About", Path: "#about", key: 2 },
+    { Name: "Gallery", Path: "#gallery", key: 3 },
     { Name: "Shop", Path: "/shop", key: 4 },
-    { Name: "Contact", Path: "/contact", key: 4 },
+    { Name: "Contact", Path: "#contact", key: 4 },
   ];
 
   const [open, setopen] = useState(false);
@@ -79,6 +79,7 @@ function Navigation() {
                 <li>
                   <Link
                     className="relative tracking-[2px]  hover:text-text-black navLink"
+                    smooth
                     to={link.Path}
                   >
                     {link.Name}

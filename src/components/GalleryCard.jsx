@@ -2,7 +2,7 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState } from "react";
 
-const Card = () => {
+const GalleryCard = () => {
   const [fullscreenImage, setFullscreenImage] = useState(null);
 
   const openFullscreen = (image) => {
@@ -82,4 +82,4 @@ const Card = () => {
   );
 };
 
-export default Card;
+export default GalleryCard;

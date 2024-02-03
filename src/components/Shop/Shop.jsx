@@ -11,7 +11,7 @@ function Shop() {
       <Hero
         Hero_layout="flex flex-col items-center  pt-[15rem] text-white"
         Hero_H1="Shop"
-        style="h-[70vh] w-full bg-[url('/images/hero3.webp')] bg-no-repeat bg-cover bg-center bg-fixed"
+        style="h-[50vh] w-full bg-[url('/images/hero3.webp')] bg-no-repeat bg-cover bg-center bg-fixed"
       />
 
       <div className="flex flex-wrap justify-center gap-10 ">
