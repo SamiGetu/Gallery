@@ -4,7 +4,7 @@ import Hero from "./Hero";
 function Home() {
   return (
     <>
-      <div id="/">
+      <div id="/" className=" blur-load">
         <Hero
           Hero_layout="flex flex-col items-center  pt-[25rem] text-white"
           Hero_H1="Welcome"

@@ -11,12 +11,7 @@ const About = () => {
           <div className="max-w-6xl mx-auto p-8 rounded-lg ">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-40">
               <div className="md:order-2">
-                <img
-                  src="images/her.webp"
-                  alt="About"
-                  loading="lazy"
-                  className="rounded-lg shadow-md transform hover:scale-105 transition-transform duration-500 grayscale-[] hover:grayscale-0 "
-                />
+                <div className="w-[25rem] h-[35rem] rounded-lg shadow-md transform hover:scale-105 transition-transform duration-500 grayscale-[] hover:grayscale-0 bg-[url('images/her.webp')] bg-no-repeat bg-cover bg-center "></div>
               </div>
               <div className="md:order-1 flex flex-col justify-center">
                 <h1 className="text-4xl font-bold text-gray-400 ">
